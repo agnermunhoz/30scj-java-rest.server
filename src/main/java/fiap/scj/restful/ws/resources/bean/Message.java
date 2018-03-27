@@ -27,4 +27,9 @@ public class Message {
 		this.dataCreation = dataCreation;
 	}
 
+	@Override
+	public String toString() {
+		return "Message [text=" + text + ", dataCreation=" + dataCreation + "]";
+	}
+
 }
